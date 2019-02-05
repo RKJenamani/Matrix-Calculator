@@ -1,0 +1,21 @@
+STATUS: WORKING PERFECTLY!! :D
+
+The interpreter supports the following operations:
+unary operation: Inverse : ai 
+binary operations: Addition	 : a+b
+		   Subtraction	 : a-b
+		   Multiplication: a*b 
+>> The interpreter also supports the following operations with left to right calculation : a+b-c+d*e-f
+
+Example of input:
+
+calc>a=[1,2,3;4,5,6;12,4,60]  //stores matrix a 
+calc>b=[2,3,1;4,1,3;56,1,2]	//stores matrix b
+calc>c=a+b	//stores c with value a+b
+calc>d=ai	//d stores inverse of a
+calc>d		//dispays matrix d
+calc>a+d	//displays output a+d
+calc>hist	//displays history
+calc>exit	//exit
+
+
